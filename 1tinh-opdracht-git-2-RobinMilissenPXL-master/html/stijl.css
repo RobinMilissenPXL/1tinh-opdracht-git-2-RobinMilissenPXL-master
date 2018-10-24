@@ -115,3 +115,13 @@ a:hover {
     height: 0;
     clear: both;
 }
+
+@media only screen and (max-width: 960px) {
+    #categorie {
+        width: 25%;
+    }
+
+    #content {
+        width: 75%
+    }
+}
