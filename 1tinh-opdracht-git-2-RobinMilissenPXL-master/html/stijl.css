@@ -122,6 +122,17 @@ a:hover {
     }
 
     #content {
-        width: 75%
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #categorie {
+        float: none;
+    }
+
+    #content {
+        width: 50%;
+        height: 100%;
     }
 }
