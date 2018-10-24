@@ -59,6 +59,10 @@ header {
     margin-right: 10%;
 }
 
+header p {
+    display: none;
+}
+
 #categorie {
     background-color: #ffffff;
     color: black;
@@ -116,7 +120,7 @@ a:hover {
     clear: both;
 }
 
-@media only screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
     #categorie {
         width: 25%;
     }
@@ -126,7 +130,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #categorie {
         float: none;
     }
@@ -135,4 +139,36 @@ a:hover {
         width: 50%;
         height: 100%;
     }
+}
+
+@media screen and (max-width: 450px) {
+    .grid {
+    width: 100%;
+    }
+
+    nav li {
+        display: block;
+        width: 100%;
+    }
+
+    header {
+        height: auto;
+        width: 100%;
+    }
+
+    header h2 {
+        display: none;
+    }
+
+    header p {
+        display: block;
+    }
+
+
+
+
+
+
+
+
 }
